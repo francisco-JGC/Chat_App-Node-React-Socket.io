@@ -1,0 +1,22 @@
+@use './sass/index' as *;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-family;
+}
+body{
+  background-color: $color-bg;
+}
+// button{
+//   letter-spacing: -0.2px;
+//   font-size: $ruler;
+//   border: 0;
+//   outline: 0;
+//   font-size: $ruler;
+//   border-radius: $ruler*20;
+//   padding: $ruler 2rem;
+//   background-color:$color-bg;
+//   text-shadow: 1px 1px 0 $color-white;
+// }

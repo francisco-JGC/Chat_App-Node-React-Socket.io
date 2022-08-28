@@ -1,0 +1,38 @@
+@use "../../sass/index" as *;
+
+li {
+    margin: 1rem;
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    max-width: 70%;
+    padding: 1rem;
+    border-radius: $ruler;
+    box-shadow: -2px -2px 5px $color-white, 2px 2px 5px $color-shadow;
+    animation: slowed .3s ease-in-out;
+
+    .name {
+        color: #3e5f8a;
+    }
+
+    .message {
+        font-size: 15px;
+    }
+
+    .time {
+        margin-top: .5rem;
+        color: $color-shadow;
+    }
+}
+
+@keyframes slowed {
+    from {
+        transform:  translateY(10px);
+        opacity: 0;
+    }
+
+    to {
+        transform:  translateY(0);
+        opacity: 1;
+    }
+}

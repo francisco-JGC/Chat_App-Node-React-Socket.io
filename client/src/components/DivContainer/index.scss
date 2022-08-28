@@ -1,0 +1,13 @@
+@use "../../sass/index" as *;
+
+.custom-div{
+    border-radius: $ruler/2;
+    line-height: 0;
+    box-shadow: -2px -2px 5px $color-white, 2px 2px 5px $color-shadow;
+    width: $ruler*3;
+    height: $ruler*3;
+    display:inline-flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 $ruler/2;
+}
